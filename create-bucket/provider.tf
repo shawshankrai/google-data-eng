@@ -11,5 +11,5 @@ provider "google" {
   project = "terraform-gcp-382215"
   region = "us-central1"
   zone = "us-central1-a"
-  credentials = file("./creds/serviceaccount.json")
+  credentials = file("../creds/serviceaccount.json")
 }
